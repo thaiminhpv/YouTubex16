@@ -8,10 +8,6 @@
     "activeTab",
     "scripting"
   ],
-  "icons": {
-    "48": "icon.png",
-    "128": "icon.png"
-  },
   "background": {
     "service_worker": "background.js"
   },
@@ -20,12 +16,5 @@
       "matches": ["https://www.youtube.com/*", "https://www.youtube-nocookie.com/*"],
       "js": ["content.js"]
     }
-  ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "48": "icon.png",
-      "128": "icon.png"
-    }
-  }
+  ]
 }
